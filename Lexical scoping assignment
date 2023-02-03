@@ -1,7 +1,6 @@
 #Function design:
 makeCacheMatrix <- function(x = matrix()) {
-        # var and functions
-        matrizinversa <- NULL
+                matrizinversa <- NULL
         set <- function( y ){
                 x <<- y
                 matrizinversa <<- NULL
